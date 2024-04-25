@@ -19,9 +19,9 @@
 }
 /* header */
 .header{
-    position: relative!important;
+    position: relative;
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     z-index: 3;
     color: #fff;
     display: grid;
@@ -31,6 +31,7 @@
 }
 .banner{
     text-align: center;
+    z-index: 3;
 }
 .banner-title{
     font-size: 6rem;
