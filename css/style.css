@@ -11,3 +11,9 @@
         --black:#191919;
         --grey:#A9B2AC;
 }
+
+/* banner-socialLinks */
+.bx{
+    font-size: 3rem;
+    color: #191919;
+}
