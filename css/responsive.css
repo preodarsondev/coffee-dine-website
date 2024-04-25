@@ -1,6 +1,7 @@
 @media screen and (max-width:768px){
     .header{
-        background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../image/img\ 1.jpg)center/cover fixed;
+        background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../image/img\ 1.jpg)center/cover fixed no-repeat;
+        /* background-position: 0 0; */
     }
     .video-container{
         display: none!important;
