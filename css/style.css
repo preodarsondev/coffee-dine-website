@@ -80,6 +80,9 @@
     animation-iteration-count: infinite;
     animation-duration: 2s;
 }
+.navbtn:hover{
+    cursor: pointer;
+}
 .navbtn .bx{
     font-size: 4rem;
 
