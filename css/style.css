@@ -142,10 +142,26 @@
     right: 5%;
     bottom: 5%;
     z-index: 3;
-    color: #fff;
-    background-color: red;
-    padding: 0.3rem!important;
 }
 .video-switch{
+    position: relative;
+    width: 5rem;
+    color: #fff;
+    background-color: var(--brightYellow);
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: space-between!important;
+    position: relative;
+    padding: 0.25rem!important;
     
+}
+.video-switch-btn{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--brown);
+    border-radius: 0.5rem;
 }
