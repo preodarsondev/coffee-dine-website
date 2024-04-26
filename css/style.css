@@ -107,7 +107,7 @@
     background-color: var(--brightYellow);
     height: 100%;
     /* width: 50%; */
-    padding: 2rem!important;
+    padding: 2rem 0rem!important;
 }
 /* .site-logo{
     font-size: 2rem!important;
@@ -122,5 +122,16 @@
     color: #fff;
     font-size: 2rem!important;
     display: block;
-    padding: 1rem 0rem!important;
+    padding: 1rem 1.4rem!important;
+    transition: all 0.5s ease-in-out;
+}
+.nav-single-link:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem!important;
+    display: block;
+    background-color: #000;
+    padding: 1rem 1.5rem!important;
+    transition: all 0.5s ease-in-out;
+
 }
