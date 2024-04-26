@@ -99,3 +99,28 @@
         transform: scale(1);
     }
 }
+/* nav items */
+.nav-item{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--brightYellow);
+    height: 100%;
+    /* width: 50%; */
+    padding: 2rem!important;
+}
+/* .site-logo{
+    font-size: 2rem!important;
+} */
+.nav-list{
+    list-style: none;
+    /* padding: 2rem; */
+    
+}
+.nav-single-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem!important;
+    display: block;
+    padding: 1rem 0rem!important;
+}
