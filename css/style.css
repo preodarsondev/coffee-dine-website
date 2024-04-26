@@ -109,9 +109,10 @@
     /* width: 50%; */
     padding: 2rem 0rem!important;
 }
-/* .site-logo{
-    font-size: 2rem!important;
-} */
+.site-logo{
+    padding: 1rem 1.4rem!important;
+}
+
 .nav-list{
     list-style: none;
     /* padding: 2rem; */
@@ -134,4 +135,17 @@
     padding: 1rem 1.5rem!important;
     transition: all 0.5s ease-in-out;
 
+}
+.toggole-btn{
+    position: absolute;
+    display: block;
+    right: 5%;
+    bottom: 5%;
+    z-index: 3;
+    color: #fff;
+    background-color: red;
+    padding: 0.3rem!important;
+}
+.video-switch{
+    
 }
