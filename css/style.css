@@ -101,6 +101,8 @@
     font-size: 4rem;
 
 }
+
+
 /* animation */
 @keyframes pulse{
     0%{
@@ -120,7 +122,7 @@
     left: 0;
     background-color: var(--brightYellow);
     height: 100%;
-    /* width: 50%; */
+    width: 13rem;
     padding: 2rem 0rem!important;
 }
 .site-logo{
@@ -149,6 +151,17 @@
     padding: 1rem 1.5rem!important;
     transition: all 0.5s ease-in-out;
 
+}
+/* nav show and hide */
+.nav-item{
+    width: 0rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 5;
+}
+.nav-show{
+    width: 13rem;
+    transition: all 0.3s ease;
 }
 .toggole-btn{
     position: absolute;
