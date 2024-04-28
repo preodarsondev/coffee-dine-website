@@ -163,7 +163,7 @@
     width: 13rem;
     transition: all 0.3s ease;
 }
-.toggole-btn{
+.toggle-btn{
     position: absolute;
     display: block;
     right: 5%;
@@ -176,7 +176,6 @@
     color: #fff;
     background-color: var(--brightYellow);
     border-radius: 0.5rem;
-
     display: flex;
     justify-content: space-between!important;
     position: relative;
@@ -187,8 +186,13 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     background-color: var(--brown);
     border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+.play-pause{
+    left: 50%;
+    transition: all 0.3s ease;
 }
