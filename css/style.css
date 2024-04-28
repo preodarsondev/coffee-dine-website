@@ -17,6 +17,20 @@
     font-size: 1.5rem;
     color: #ffffff;
 }
+/* preloader */
+.pre-loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
 /* header */
 .header{
     position: relative;
