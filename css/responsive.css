@@ -14,3 +14,13 @@
         font-size: 4rem;
     }
 }
+@media screen and (min-width:768px){
+    .grid-container-medium-2{
+      display: grid!important;
+      grid-template-columns: 1fr 1fr!important;
+      grid-column-gap: 4rem!important;
+    }
+    .grid-container{
+        max-width: 75vw;
+    }
+}
