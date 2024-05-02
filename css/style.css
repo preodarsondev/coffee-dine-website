@@ -265,6 +265,7 @@
  .drink-form-feedback{
     padding: 0.5rem!important;
     border: 1px solid white;
+    display: none;
  }
  .drink-form-title,.drink-card-title{
     font-size: 2rem;
@@ -297,3 +298,25 @@
     border-color: #ddd;
     transition: all 0.3s;
   }
+  /* person */
+  .drink-card-list{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 2rem;
+  }
+  .person{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 1rem;
+    border:0.1rem solid rgba(111,87,77,0.6);
+    padding: 1rem!important;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    text-align: left ;
+    align-items: center!important;
+  }
+  .demo-person-img{
+    border-radius: 50%;
+  }
+ 
+  

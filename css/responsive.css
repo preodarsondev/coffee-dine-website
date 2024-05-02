@@ -29,6 +29,10 @@
       .about-container{
         grid-template-rows: 1fr 1fr;
       }
+      .drink-card-list{
+        grid-template-columns: 1fr 1fr!important;
+        grid-gap: 1rem;
+      }
       
       
       
