@@ -251,7 +251,7 @@
   }
  /* Drink section */
  .drink{
-    background-color: #000;
+    background-color: var(--brown);
     color: white;
  }
  .drink-form,.drink-card{
